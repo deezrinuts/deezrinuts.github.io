@@ -1,43 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Мой тестовый сайт</title>
-  <style>
-    body {
-      background: #000;
-      color: #0f0;
-      font-family: 'Comic Sans MS', cursive;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      text-shadow: 0 0 10px #0f0;
-      animation: blink 1s infinite;
-    }
-    @keyframes blink {
-      50% { opacity: 0.5; }
-    }
-    .counter {
-      position: fixed;
-      bottom: 10px;
-      right: 10px;
-      font-size: 12px;
-    }
-  </style>
+    <title>Мой сайт</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-  <h1>Добро пожаловать в 2007!</h1>
-  <p>Это мой тестовый сайт на GitHub Pages</p>
-  <img src="https://via.placeholder.com/400x200?text=Главное+изображение" alt="Заглушка">
-  
-  <div class="counter">
-    <!-- Счетчик посещений -->
-    <img src="https://hitwebcounter.com/counter/counter.php?page=0000000&style=0006&nbdigits=5&type=ip&initCount=1000" alt="Счетчик">
-  </div>
-  
-  <!-- Бегущая строка -->
-  <marquee behavior="scroll" direction="left" style="position:fixed; bottom:0; width:100%; color:#ff0;">
-    Сайт в разработке! • Email: webmaster@example.com • Последнее обновление: 01.01.2005
-  </marquee>
+    <img src="https://i.pinimg.com/736x/98/70/7e/98707ead0917b01392e33294755b5ba5.jpg" alt="Единственный элемент">
 </body>
 </html>
